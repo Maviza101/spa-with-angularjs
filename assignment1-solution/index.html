@@ -2,7 +2,11 @@
 <html lang="en">
     <head>
         <title>Lunch Checker</title>
+<<<<<<< HEAD
         <script type="text/javascript" src="angular.min.js"></script>
+=======
+        <script src="angular.min.js"></script>
+>>>>>>> dev
         <script src="app.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles/bootstrap.min.css">
@@ -13,9 +17,15 @@
     <body ng-app="LunchCheck">
         <div class="container" ng-controller="LunchCheckController">
             <h1>Lunch Checker</h1>
+<<<<<<< HEAD
 
             <div class="form-group">
                 <input ng-model="listOfDishes" type="text"
+=======
+            <div class="form-group">
+                <input type="text" ng-model="lunchDishes"
+                    style="border: 1px solid {{showValidityOfInput}}"
+>>>>>>> dev
                     placeholder="Enter a comma-separated list of dishes you usually have for lunch"
                     class="form-control">
             </div>
